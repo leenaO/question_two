@@ -1,0 +1,53 @@
+input{
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+    width: 300px;     
+}
+
+h1{
+    text-align: center;
+ 
+}
+.form-group{
+    display: grid; 
+    gap: 4px;
+}
+
+.form{
+    background-color: white;
+    width:400px;
+    height:80%;
+    border: 1px black solid;
+    border-radius: 20px;;
+    padding: 50px 50px 100px 50px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+
+body{
+    
+    background: linear-gradient(to bottom,rgb(105, 180, 172),rgb(116, 213, 191),white);
+}
+
+.star{
+    color:red;
+}
+
+#button{
+    padding: 10px 30px;
+    background-color: rgb(105, 180, 172);
+    border-color:rgb(105, 180, 172);
+    border-width: 1px;
+    border-radius:30px;
+    color:white;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#button:hover{
+    background-color: white;
+    color:rgb(105, 180, 172);
+
+}
